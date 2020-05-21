@@ -1,0 +1,32 @@
+package main
+
+var (
+	//time in seconds
+	MODE = 1
+
+	BOSS_DELAY = 3
+	TASK_SIZE  = 30
+
+	EMPLOYEE_DELAY  = 8
+	EMPLOYEE_AMOUNT = 6
+	PRODUCT_SIZE    = 30
+
+	SERVICE_EMPLOYEES      = 2
+	SERVICE_EMPLOYEE_DELAY = 1
+
+	CUSTOMER_DELAY  = 30
+	CUSTOMER_AMOUNT = 10
+
+	MACHINE_ADD  = 4
+	MACHINE_MULT = 4
+	MACHINE_LEN  = MACHINE_ADD + MACHINE_MULT
+
+	//probability machine corrution
+	MACHINE_DAMAGE = 0.2
+
+	ARG_RANGE = 100
+
+	//time in miliseconds
+	MACHINE_DELAY = 1500
+	EMPLOYEE_WAIT = 50
+)
